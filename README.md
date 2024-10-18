@@ -1,42 +1,40 @@
 
 # Hibrid Express Astro
 
-Este proyecto es una plantilla basica que permite desarrollar tanto en express como en astro en un mismo proyecto.
+Esta plantilla está diseñada para facilitar el desarrollo, utilizando tanto las tecnologías de Express y Astro, ofrece una base sólida para construir aplicaciones completas que requieran tanto una API backend como un frontend optimizado.
 
 
 ## Tech Stack
 
 
-   ![Astro](https://img.shields.io/badge/astro-%23FF5B5B.svg?style=for-the-badge&logo=astro&logoColor=white)
+   ![Astro](https://img.shields.io/badge/astro-%23ff5a03.svg?style=for-the-badge&logo=astro&logoColor=white)
 
+   ![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
 
-   ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-
-
-   ![Express](https://img.shields.io/badge/express-%23404C12.svg?style=for-the-badge&logo=express&logoColor=white)
+   ![Express](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)
 
 
 
 ## Como usar
 
-Clona el proyecto
+Crea la carpeta de tu nuevo proyecto.
 
 ```bash
-  git clone https://github.com/dynecore/hibrid-express-astro
+  mkdir new-project
 ```
-
-Dirigete al directorio del proyecto
+Clona HEA en la carpeta del nuevo proyecto.
 
 ```bash
-  cd hibrid-express-astro
+  cd new-project
+  git clone https://github.com/dynecore/hibrid-express-astro .
 ```
 
-Instala las dependencias
+Instala las dependencias.
 
 ```bash
   npm install
 ```
-compila astro
+El proyecto no incluye una demo compilada de astro asi que debes hacer build. los archivos de Astro se encuentran en su carpeta respectiva.
 
 ```bash
   npm run build
